@@ -1,14 +1,23 @@
 # RTB-DB
 
-## SETUP
+## Requirements
+
+docker compose - v2
+
+## Setup
 
 To be used as git submodule to [rtb-house](https://github.com/zakrzaq/rtb-house) in `./db` directory.
 
-- setup `.env` file. Example [ENVIRONMENT VARIABLES](#environment-variables)
-- run `docker compose up`
+1. .env
 
+- setup `postgres.dev.env` file. [example](#environment-variables)
 
-## ENVIRONMENT VARIABLES
+2. docker setup:
+
+- to run the Docker image execute 'docker compose up'
+
+### ENVIRONMENT VARIABLES
+
 File: `postgres.dev.env`
 
 ```
@@ -19,4 +28,3 @@ PGADMIN_LISTEN_PORT=5050
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
 ```
-
