@@ -8,6 +8,8 @@ docker compose - v2
 
 To be used as git submodule to [rtb-house](https://github.com/zakrzaq/rtb-house) in `./db` directory.
 
+Or for standalone use:
+
 1. .env
 
 - setup `postgres.dev.env` file. [example](#environment-variables)
