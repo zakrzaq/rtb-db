@@ -1,6 +1,7 @@
 # RTB-DB
 
 ## ENVIRONMENT VARIABLES
+File: `postgres.dev.env`
 
 ```
 POSTGRES_DB=rtb_house_db
